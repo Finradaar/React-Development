@@ -2,6 +2,12 @@
 - If any occured then use: 
  use npm install react-virtualized --legacy-peer-deps
 
+
+# commands to use:
+- npm install
+- npm start (it will take you to localhost:3000)
+- try with http://localhost:3000/stocks
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
