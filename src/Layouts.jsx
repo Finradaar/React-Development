@@ -36,6 +36,7 @@ import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 import StockLayout from './components/StocksLayout/StockLayout';
 import Login from './components/Login/Login';
 
+
 const drawerWidth = 240;
 
 const Main = styled('main', { shouldForwardProp: (prop) => prop !== 'open' })(
@@ -83,7 +84,7 @@ const DrawerHeader = styled('div')(({ theme }) => ({
   justifyContent: 'flex-end',
 }));
 
-export default function PersistentDrawerLeft() {
+export default function HomePageLayout() {
   const theme = useTheme();
   const [open, setOpen] = React.useState(false);
 

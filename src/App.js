@@ -4,7 +4,7 @@ import store from "./store/store";
 import "antd/dist/antd.css";
 
 import { Layout } from "antd";
-import PersistentDrawerLeft from "./Layouts";
+import HomePageLayout from "./Layouts";
 import Login from "./components/Login/Login";
 
 
@@ -13,7 +13,7 @@ export default function App() {
     <Provider store={store}>
       <Layout style={{background: "#303030"}}>
           {/* <Login /> */}
-          < PersistentDrawerLeft />
+          < HomePageLayout />
         </Layout>
     </Provider>
   );
